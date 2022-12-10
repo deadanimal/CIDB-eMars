@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PhotoUploader_Edit.ascx.cs" Inherits="MAT.WebApp.App.DynamicData.FieldTemplates.PhotoUploader_Edit" %>
+<asp:FileUpload ID="FileUpload1" runat="server" CssClass="input-file-photo-uploader" />

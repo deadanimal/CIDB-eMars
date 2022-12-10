@@ -1,0 +1,210 @@
+:root {
+	--container-curve: 10px;
+	--bg-colour: #fefefe;
+	--font-colour: #010101;
+}
+.div {
+	background-color: var(--bg-colour);
+	color: var(--font-colour);
+}
+#KPIParentDiv {
+	margin-top: 10px;
+	padding:15px;
+	background-color: var(--bg-colour);
+	border-radius: var(--container-curve);
+	border: 1px dotted teal;
+}
+@media print {
+  #KPIParentDiv {page-break-after: always;}
+}
+#KPIDiv {
+	padding:5px;
+}
+#divTHRUST_DESC {
+}
+#divKPI {
+	font-size: large;
+	text-align: center;
+	border: 1px solid teal;
+	border-radius: var(--container-curve);
+	background-color: teal;
+	color: white;
+}
+#Chart {
+	margin: 10px;
+	border: 1px solid teal;
+	border-radius: var(--container-curve);
+}
+#DivUserName {
+}
+#DivDeliveries {
+	margin: 10px;
+	padding: 15px;
+	
+	border: 1px solid teal;
+	border-radius: var(--container-curve);
+}
+#DivByEachYear {
+	vertical-align: text-top;
+	display: inline-block;
+	width: 48%;
+}
+#DivByEachYear>div:nth-child(4) {
+	display: none;
+}
+#DivByEachYear>div:nth-child(5) {
+	display: none;
+}
+#divYear{
+	text-align: center;
+	background-color: teal;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px 5px 0 0; 
+}
+#ReportWriteUpDiv {
+	margin: 10px;
+	border: 1px solid teal;
+	border-radius: var(--container-curve);
+	padding: 10px;
+}
+
+:root {
+	--font-label-title:bold;
+}
+#divSelectYear {
+    display: inline-block;
+}
+#divSelectQuarter {
+    display: inline-block;
+}
+#divCUM_KPI_PERCENTAGE {
+    display: inline-block;
+}
+
+#divCUM_KPI_TARGET{
+	display: inline-block;
+}
+#divCUM_KPI_PROGRESS{
+	display: inline-block;
+}
+#divCUM_KPI_PERCENTAGE{
+	display: inline-block;
+}
+
+#divKPI_LEADER_NAME1{
+	display: inline-block;
+}
+#divOWNER_NAME{
+	display: inline-block;
+}
+#divSPONSOR_NAME{
+	display: inline-block;
+}
+#divOIC_NAME{
+	display: inline-block;
+}
+
+#div_Deliverable_Progress{
+	display: inline-block;
+}
+#div_Deliverable_Target{
+	display: inline-block;
+}
+
+#divTHRUST_DESC::before {
+	content: "Thrust: ";
+	font-weight: var(--font-label-title);
+}
+#divINITIATIVE_CODE{
+	display: none;
+}
+#divINITIATIVE_DESC::before {
+	content: "End State: ";
+	font-weight: var(--font-label-title);
+}
+#divSUB_INITIATIVE_CODE{
+	display: none;
+}
+#divSUB_INITIATIVE_DESC::before {
+	content: "Intermediate End State: ";
+	font-weight: var(--font-label-title);
+}
+#divKPI_CODE::before {
+	content: "KPI: ";
+	font-weight: var(--font-label-title);
+}
+#divCUM_KPI_TARGET::before {
+	content: "Target: ";
+	font-weight: var(--font-label-title);
+}
+#divCUM_KPI_TARGET::after {
+	content: "%";
+	font-weight: var(--font-label-title);
+}
+#divCUM_KPI_PROGRESS::before {
+	content: "Progress: ";
+	font-weight: var(--font-label-title);
+}
+#divCUM_KPI_PROGRESS::after {
+	content: "%";
+	font-weight: var(--font-label-title);
+}
+#divCUM_KPI_PERCENTAGE::before {
+	content: "Achievement: ";
+	font-weight: var(--font-label-title);
+}
+#divCUM_KPI_PERCENTAGE:after {
+	content: "%";
+}
+#divKPI_LEADER_NAME1::before {
+	content: "SME Buddy: ";
+	font-weight: var(--font-label-title);
+}
+#divOWNER_NAME::before {
+	content: "Owner: ";
+	font-weight: var(--font-label-title);
+}
+#divSPONSOR_NAME::before {
+	content: "Sponsor: ";
+	font-weight: var(--font-label-title);
+}
+#divOIC_NAME::before {
+	content: "OIC: ";
+	font-weight: var(--font-label-title);
+}
+
+#DivDeliveriesTitle {
+	display: none;
+	font-weight: var(--font-label-title);
+}
+#DivDeliveriesTitle::before {
+	content: "Annual Target: ";
+	font-weight: var(--font-label-title);
+}
+#div_Deliverable_Progress::before {
+	content: "Progress: ";
+	font-weight: var(--font-label-title);
+}
+#div_Deliverable_Progress::after {
+	content: "%";
+	font-weight: var(--font-label-title);
+}
+#div_Deliverable_Target::before {
+	content: "/ ";
+	font-weight: var(--font-label-title);
+}
+#div_Deliverable_Target::after {
+	content: "%";
+	font-weight: var(--font-label-title);
+}
+#ReportWriteUpDiv::before {
+	content: "";
+	font-weight: var(--font-label-title);
+}
+#ReportWriteUpTitle {
+	font-weight: var(--font-label-title);
+}
+div {
+	padding: 5px;
+}

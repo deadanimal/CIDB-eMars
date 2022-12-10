@@ -1,0 +1,31 @@
+[28/06/2020 10:17:03][20200628101703862][InitiateWorkflowInstance] ==> WorkflowType: MAT.App.Workflow.WorkflowType.ForgotPassword, WorkflowId: b5c03ffb-c155-48ae-a15e-652fea195fa5
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][InitiateWorkflowInstance] ==> Success
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][EscalateToNextSequence] ==> START EscalateToNextSequence. Current Sequence No: -1
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][EscalateToNextSequence] ==> Next Sequence No found: 1.
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][EscalateToNextSequence] ==> ManualAssignment: False.
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][PrepareNextSequenceWorkflowInstanceDetails] ==> Total Workflow Sequence Assignment: 1.
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][PrepareNextSequenceWorkflowInstanceDetails] ==> WorkflowSequenceAssignmentId ##### 1: 284f8d80-a3cb-4305-8101-ca370eb3598b No Approval Required
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][PrepareNextSequenceWorkflowInstanceDetails] ==> No condition.
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][PrepareNextSequenceWorkflowInstanceDetails] ==> No approval required.
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][EscalateToNextSequence] ==> START insert WorkflowInstanceDetail. Total: 1.
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][EscalateToNextSequence] ==> END insert WorkflowInstanceDetail.
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPreActionMail] ==> START SendPreActionMail
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPreActionMail] ==> WorkflowSequenceId: 76503bdf-95c7-4e3f-8021-134866419c24
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPreActionMail] ==> Total WorkflowSequenceEmailNotification found: 1.
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPreActionMail] ==> WorkflowRecipientTypeName ##### 1: Submitter
+[28/06/2020 10:17:04][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPreActionMail] ==> Total Users found: 1
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPreActionMail] ==> END SendPreActionMail
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][TryCompleteWorkflowInstance] ==> START TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][AutoBypass] ==> START AutoBypass
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][AutoBypass] ==> Total WorkflowSequenceAssignment: 1
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][AutoBypass] ==> WorkflowSequenceAssignmentId ##### 1: 284f8d80-a3cb-4305-8101-ca370eb3598b, MinApprovalRequired: 
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][AutoBypass] ==> Total to bypass: 0
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][AutoBypass] ==> END AutoBypass
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][TryCompleteWorkflowInstance] ==> No pending WorkflowInstanceDetail was found
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPostActionMail] ==> START SendPostActionMail
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPostActionMail] ==> No post action email was found.
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendPostActionMail] ==> END SendPostActionMail.
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][TryCompleteWorkflowInstance] ==> This is end of the sequence. The workflow instance is completed.
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][TryCompleteWorkflowInstance] ==> END TryCompleteWorkflowInstance. WorkflowInstanceStatus: Completed, SequenceNo: 1
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][EscalateToNextSequence] ==> END EscalateToNextSequence
+[28/06/2020 10:17:05][20200628101703862][f1d783a7-0c0a-47c1-8dda-89c1690016ce][SendEmail] ==> Success. Email: admin@admin.com

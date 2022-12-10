@@ -1,0 +1,185 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<%--Text Box--%>
+<Metronic:TextBox runat="server" CssClass="form-control m-input"></Metronic:TextBox>
+
+<%-- Validator --%>
+<asp:RequiredFieldValidator runat="server" CssClass="danger form-control-feedback" Display="Dynamic"></asp:RequiredFieldValidator>
+<asp:CompareValidator runat="server" CssClass="danger form-control-feedback" Display="Dynamic"></asp:CompareValidator>
+<asp:RangeValidator runat="server" CssClass="danger form-control-feedback" Display="Dynamic"></asp:RangeValidator>
+<asp:RegularExpressionValidator runat="server" CssClass="danger form-control-feedback" Display="Dynamic"></asp:RegularExpressionValidator>
+<asp:DynamicValidator runat="server" CssClass="danger form-control-feedback" Display="Dynamic"></asp:DynamicValidator>
+
+<%--label--%>
+<MAT:Label runat="server" CssClass="col-sm-4 col-form-label" SkinId="FormLabel"></MAT:Label>
+<MAT:Label runat="server" CssClass="col-sm-4 col-md-3 col-lg-3 col-xl-3 col-form-label" SkinId="FormLabel2"></MAT:Label>
+<MAT:Label runat="server" CssClass="col-form-value" SkinId="FormValue"></MAT:Label>
+<asp:Label runat="server" CssClass="col-sm-4 col-form-label" SkinId="FormLabel"></asp:Label>
+<asp:Label runat="server" CssClass="col-form-value" SkinId="FormValue"></asp:Label>
+
+<%--Dropdown list--%>
+<Metronic:DropDownList runat="server" CssClass="form-control m-select2 select2-hidden-accessible" style="width: 100%;"></Metronic:DropDownList>
+<Metronic:DropDownList runat="server" CssClass="form-control m-bootstrap-select m_selectpicker" SkinId="BootstrapSelect"></Metronic:DropDownList>
+
+<Metronic:MultiSelect runat="server" CssClass="form-control m-select2 select2-hidden-accessible" style="width: 100%;"></Metronic:MultiSelect>
+
+
+<%-- Form View Button --%>
+<Metronic:FormViewButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon"></Metronic:FormViewButton>
+<Metronic:FormViewButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-save padding_right_1" Text="Save" SkinId="ButtonSave" ></Metronic:FormViewButton>
+<Metronic:FormViewButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" SkinId="ButtonFreeText" ></Metronic:FormViewButton>
+<Metronic:FormViewButton runat="server" CssClass="btn btn-danger m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-trash-o padding_right_1" Text="Delete" SkinId="ButtonDelete" ></Metronic:FormViewButton>
+
+<%-- Button --%>
+<Metronic:LinkButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon"></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-info m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-plus padding_right_1" Text="Add" SkinId="ButtonAdd"></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-edit padding_right_1" Text="Edit" SkinId="ButtonEdit"></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-secondary m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-undo padding_right_1" Text="Back" SkinId="ButtonBack" ShowLoader="false"></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-search padding_right_1" Text="Search" SkinId="ButtonSearch" ></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-check padding_right_1" Text="Confirm" SkinId="ButtonConfirm" ></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-info m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-floppy-o padding_right_1" Text="Save" SkinId="ButtonSave" ></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-danger m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-trash-o padding_right_1" Text="Delete" SkinId="ButtonDelete" ></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-secondary m-btn m-btn--custom m-btn--icon" FrontIconCss="fa fa-times padding_right_1" Text="Cancel" SkinId="ButtonCancel" ></Metronic:LinkButton>
+
+<Metronic:LinkButton runat="server" CssClass="m-btn btn btn-primary" FrontIconCss="fa fa-plus" ToolTip="Add" SkinId="ButtonAddIcon"></Metronic:LinkButton>
+
+<Metronic:LinkButton runat="server" SkinId="ButtonFree"></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" SkinId="ButtonFreeText"></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" SkinId="ButtonFreeLink"></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" FrontIconCss="ace-icon fa fa-cloud-upload padding_right_1" Text="Upload" SkinId="ButtonUpload"></Metronic:LinkButton>
+
+<Metronic:LinkButton runat="server" SkinId="ButtonSubmissionOk" CssClass="swal2-confirm btn btn-success m-btn m-btn--custom" />
+<Metronic:LinkButton runat="server" SkinId="ButtonSubmissionCancel" CssClass="swal2-cancel btn btn-secondary m-btn m-btn--custom" />
+
+<%-- GridView --%>
+<Metronic:GridView runat="server" CssClass="table table-striped table-bordered table-hover dataTable" AutoGenerateColumns="false" 
+   AllowSorting="true" AllowPaging="true" EmptyDataText="No records found" PagerType="TextBox">
+   <PagerStyle CssClass="m-datatable__pager" />
+    <SortedAscendingHeaderStyle CssClass="sorting_asc" />
+    <SortedDescendingHeaderStyle CssClass="sorting_desc" />
+</Metronic:GridView>
+
+<Metronic:GridView runat="server" CssClass="table table-striped table-bordered table-hover dataTable" AutoGenerateColumns="false" 
+   AllowSorting="false" AllowPaging="false" EmptyDataText="No records found" PagerType="TextBox" SkinID="Custom">
+   <PagerStyle CssClass="m-datatable__pager" />
+    <SortedAscendingHeaderStyle CssClass="sorting_asc" />
+    <SortedDescendingHeaderStyle CssClass="sorting_desc" />
+</Metronic:GridView>
+
+<Metronic:GridView runat="server" CssClass="table table-striped table-bordered table-hover dataTable" AutoGenerateColumns="false" 
+   AllowSorting="true" AllowPaging="false" EmptyDataText="No records found" PagerType="TextBox" SkinId="pagelessGridView">
+    <SortedAscendingHeaderStyle CssClass="sorting_asc" />
+    <SortedDescendingHeaderStyle CssClass="sorting_desc" />
+</Metronic:GridView>
+
+<%-- Date Picker--%>
+<Metronic:TextBox runat="server" CssClass="form-control m-input date-picker" SkinId="DatePicker"></Metronic:TextBox>
+<Metronic:TextBox runat="server" CssClass="form-control m-input time-picker" SkinId="TimePicker"></Metronic:TextBox>
+<Metronic:TextBox runat="server" CssClass="form-control m-input date-picker month-picker" SkinId="MonthPicker"></Metronic:TextBox>
+
+<%--Avatar--%>
+<Metronic:Avatar runat="server" EmptyImagePath="assets/mat/media/img/no-image.png" CssClass="profile-picture" />
+
+
+<%-- Text Box--%>
+<asp:TextBox runat="server" CssClass="form-control date-picker" SkinID="DatePicker"></asp:TextBox>
+<MAT:TextBox runat="server" CssClass="form-control date-picker" SkinID="DatePicker"></MAT:TextBox>
+
+
+<%--GridView--%>
+<MAT:GridView runat="server" CssClass="table table-striped table-bordered table-hover dataTable" AutoGenerateColumns="false" AllowSorting="true" AllowPaging="true" EmptyDataText="No records found" PagerType="TextBox">
+    <SelectedRowStyle CssClass="success" />
+    <SortedAscendingHeaderStyle CssClass="sorting_asc" />
+    <SortedDescendingHeaderStyle CssClass="sorting_desc" />
+</MAT:GridView>
+<MAT:GridView runat="server" CssClass="table table-striped table-bordered table-hover dataTable" AutoGenerateColumns="false" AllowSorting="true" AllowPaging="false" SkinId="pagelessGridView" EmptyDataText="No records found." PagerType="TextBox">
+    <SelectedRowStyle CssClass="success" />
+    <SortedAscendingHeaderStyle CssClass="sorting_asc" />
+    <SortedDescendingHeaderStyle CssClass="sorting_desc" />
+</MAT:GridView>
+<MAT:GridView runat="server" CssClass="table table-striped table-bordered table-hover dataTable" EmptyDataText="No records found" SkinId="FreeGridView" PagerType="TextBox">
+    <SelectedRowStyle CssClass="success" />
+    <SortedAscendingHeaderStyle CssClass="sorting_asc" />
+    <SortedDescendingHeaderStyle CssClass="sorting_desc" />
+</MAT:GridView>
+
+
+<%--button--%>
+<MAT:Button runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" Text="Add" SkinId="ButtonAdd"></MAT:Button>
+<MAT:Button runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" Text="Save" SkinId="ButtonSave" ></MAT:Button>
+<MAT:Button runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" Text="Delete" SkinId="ButtonDelete"></MAT:Button>
+<MAT:Button runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" Text="Cancel" SkinId="ButtonCancel"></MAT:Button>
+<MAT:Button runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" Text="Edit" SkinId="ButtonEdit"></MAT:Button>
+<MAT:Button runat="server" CssClass="btn btn-primary m-btn m-btn--custom m-btn--icon" SkinId="Button"></MAT:Button>
+
+<MAT:LinkButton runat="server" CssClass="btn btn-info" FrontIconCss="ace-icon fa fa-floppy-o bigger-110" SkinId="ButtonSaveFreeText" ></MAT:LinkButton>
+<MAT:LinkButton runat="server" CssClass="btn btn-info" FrontIconCss="ace-icon fa fa-floppy-o bigger-110" Text="Save" SkinId="ButtonSave" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn btn-info" FrontIconCss="ace-icon fa fa-floppy-o bigger-110" Text="Save" SkinId="ButtonSave" ></MAT:HyperLink>
+<MAT:LinkButton runat="server" CssClass="light-blue" FrontIconCss="ace-icon fa fa-floppy-o bigger-130" SkinId="ButtonSaveIcon"></MAT:LinkButton>
+
+<MAT:LinkButton runat="server" CssClass="btn" FrontIconCss="ace-icon fa fa-times red2 bigger-110" Text="Cancel" SkinId="ButtonCancel" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn" FrontIconCss="ace-icon fa fa-times red2 bigger-110" Text="Cancel" SkinId="ButtonCancel" ></MAT:HyperLink>
+<MAT:LinkButton runat="server" CssClass="" FrontIconCss="ace-icon fa fa-times red2 bigger-130" SkinId="ButtonCancelIcon"></MAT:LinkButton>
+
+<MAT:LinkButton runat="server" CssClass="btn btn-info" Text="Add" FrontIconCss="ace-icon fa fa-plus bigger-110" SkinId="ButtonAdd" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn btn-info" Text="Add" FrontIconCss="ace-icon fa fa-plus bigger-110" SkinId="ButtonAdd" ></MAT:HyperLink>
+<MAT:LinkButton runat="server" CssClass="btn btn-info btn-sm" Text="Add" FrontIconCss="ace-icon fa fa-plus bigger-110" SkinId="ButtonAddSmall" ></MAT:LinkButton>
+
+<MAT:LinkButton runat="server" CssClass="btn btn-primary" FrontIconCss="ace-icon fa fa-pencil-square-o bigger-130" Text="Edit" SkinId="ButtonEdit" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn btn-primary" FrontIconCss="ace-icon fa fa-pencil-square-o bigger-130" Text="Edit" SkinId="ButtonEdit" ></MAT:HyperLink>
+<MAT:LinkButton runat="server" CssClass="blue" FrontIconCss="ace-icon fa fa-pencil-square-o bigger-130" SkinId="ButtonEditIcon"></MAT:LinkButton>
+
+<MAT:LinkButton runat="server" CssClass="btn btn-danger" Text="Delete" FrontIconCss="ace-icon fa fa-trash-o bigger-110" SkinId="ButtonDelete" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn btn-danger" Text="Delete" FrontIconCss="ace-icon fa fa-trash-o bigger-110" SkinId="ButtonDelete" ></MAT:HyperLink>
+<MAT:LinkButton runat="server" CssClass="red" FrontIconCss="ace-icon fa fa-trash-o bigger-130" SkinId="ButtonDeleteIcon"></MAT:LinkButton>
+
+<MAT:LinkButton runat="server" CssClass="btn btn-info" Text="View" FrontIconCss="ace-icon fa fa-search-plus bigger-110" SkinId="ButtonView" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn btn-info" Text="View" FrontIconCss="ace-icon fa fa-search-plus bigger-110" SkinId="ButtonView" ></MAT:HyperLink>
+<MAT:HyperLink runat="server" CssClass="blue" FrontIconCss="ace-icon fa fa-search-plus bigger-130" SkinId="ButtonViewIcon" ></MAT:HyperLink>
+<MAT:LinkButton runat="server" CssClass="blue" FrontIconCss="ace-icon fa fa-search-plus bigger-130" SkinId="ButtonViewIcon" ></MAT:LinkButton>
+
+<MAT:LinkButton runat="server" CssClass="btn btn-purple" FrontIconCss="ace-icon fa fa-search icon-on-right bigger-110" Text="Search" SkinId="ButtonSearch" ></MAT:LinkButton>
+<MAT:LinkButton runat="server" CssClass="btn btn-purple btn-sm" FrontIconCss="ace-icon fa fa-search icon-on-right bigger-110" Text="Search" SkinId="ButtonSearchSmall" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn btn-purple" FrontIconCss="ace-icon fa fa-search icon-on-right bigger-110" Text="Search" SkinId="ButtonSearch" ></MAT:HyperLink>
+<MAT:LinkButton runat="server" CssClass="btn btn-purple btn-sm" FrontIconCss="ace-icon fa fa-search icon-on-right bigger-110" SkinId="ButtonSearchSmallFreeText" ></MAT:LinkButton>
+
+<MAT:HyperLink runat="server" CssClass="btn" FrontIconCss="ace-icon fa fa-undo bigger-110" Text="Back" SkinId="ButtonBack" CauseValidation="false"></MAT:HyperLink>
+
+<MAT:LinkButton runat="server" CssClass="btn btn-info" FrontIconCss="ace-icon fa fa-tachometer bigger-110" Text="Dashboard" SkinId="ButtonDashboard" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn btn-info" FrontIconCss="ace-icon fa fa-tachometer bigger-110" Text="Dashboard" SkinId="ButtonDashboard" ></MAT:HyperLink>
+
+<%--Drop Down List--%>
+
+<%--Avatar--%>
+<MATAce:Avatar runat="server" EmptyImagePath="Images/no-image.png" CssClass="profile-picture" />
+
+<%--Upload Button--%>
+<MAT:LinkButton runat="server" CssClass="btn btn-xs btn-purple" FrontIconCss="ace-icon fa fa-cloud-upload " Text="Upload" SkinId="ButtonUpload" ></MAT:LinkButton>
+<MAT:HyperLink runat="server" CssClass="btn btn-xs btn-purple" FrontIconCss="ace-icon fa fa-cloud-upload " Text="Upload" SkinId="ButtonUpload" ></MAT:HyperLink>
+
+<%-- Button Icon --%>
+<Metronic:LinkButton runat="server" CssClass="btn m-btn m-btn--icon btn-xsm m-btn--icon-only m-btn--pill m-btn--air" FrontIconCss="fa fa-search-plus" ToolTip="View" SkinId="ButtonViewIcon"></Metronic:LinkButton>
+<Metronic:LinkButton runat="server" CssClass="btn m-btn m-btn--icon btn-xsm m-btn--icon-only m-btn--pill m-btn--air" FrontIconCss="fa fa-trash-o" ToolTip="Delete" SkinId="ButtonDeleteIcon"></Metronic:LinkButton>
+
+
+<asp:Panel SkinID="ModalPopup" runat="server"  CssClass="modalPopupForm"  style="display: none;"/>
+<asp:Panel SkinID="ModalPopupHeader" runat="server" CssClass="modalPopupHeader" />
+
+<MAT:Panel SkinID="ModalPopup" runat="server"  CssClass="modalPopupForm"  style="display: none;"/>
+<MAT:Panel SkinID="ModalPopupHeader" runat="server" CssClass="modalPopupHeader" />
+
+<AjaxControlToolkit:ModalPopupExtender runat="server" BackgroundCssClass="modalBackground" DropShadow="True"></AjaxControlToolkit:ModalPopupExtender>

@@ -1,0 +1,7 @@
+﻿scripts.bundle.js
+----------------------
+Issue: When scroll down in IE, the header minimize not working whereby it keep hide and show
+
+Solution: 
+Change in line 5224: during scroll down 
+ - if (st > offset && lastScrollTop <= st){ // down scroll mode

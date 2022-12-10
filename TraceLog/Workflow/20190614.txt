@@ -1,0 +1,29 @@
+[14/06/2019 11:02:58][20190614110258461][InitiateWorkflowInstance] ==> WorkflowType: MAT.App.Scorecard.Workflow.WorkflowType.KpiProgressApproval, WorkflowId: 3e8399ef-11bd-4120-9ed0-90382953aa29
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][InitiateWorkflowInstance] ==> Success
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][EscalateToNextSequence] ==> START EscalateToNextSequence. Current Sequence No: -1
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][EscalateToNextSequence] ==> Next Sequence No found: 1.
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][EscalateToNextSequence] ==> ManualAssignment: False.
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][PrepareNextSequenceWorkflowInstanceDetails] ==> Total Workflow Sequence Assignment: 1.
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][PrepareNextSequenceWorkflowInstanceDetails] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900 KPI Owner
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][PrepareNextSequenceWorkflowInstanceDetails] ==> No condition.
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][PrepareNextSequenceWorkflowInstanceDetails] ==> Total users found: 1
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][EscalateToNextSequence] ==> START insert WorkflowInstanceDetail. Total: 1.
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][EscalateToNextSequence] ==> END insert WorkflowInstanceDetail.
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][SendPreActionMail] ==> START SendPreActionMail
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][SendPreActionMail] ==> WorkflowSequenceId: 09367d25-7f1b-4caf-8df4-80f95676e655
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][SendPreActionMail] ==> Total WorkflowSequenceEmailNotification found: 1.
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][SendPreActionMail] ==> WorkflowRecipientTypeName ##### 1: Approvers
+[14/06/2019 11:02:58][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][SendPreActionMail] ==> Total Users found: 1
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][SendPreActionMail] ==> END SendPreActionMail
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][TryCompleteWorkflowInstance] ==> START TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][AutoBypass] ==> START AutoBypass
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][AutoBypass] ==> Total WorkflowSequenceAssignment: 1
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][AutoBypass] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900, MinApprovalRequired: 1
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][AutoBypass] ==> Total Count: 1
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][AutoBypass] ==> Total Approved: 0
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][AutoBypass] ==> Total Pending: 1
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][AutoBypass] ==> Total to bypass: 0
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][AutoBypass] ==> END AutoBypass
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][TryCompleteWorkflowInstance] ==> END TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[14/06/2019 11:02:59][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][EscalateToNextSequence] ==> END EscalateToNextSequence
+[14/06/2019 11:03:01][20190614110258461][edbc0fe0-6845-476c-ab3d-6bf26b1f6ae7][SendEmail] ==> Success. Email: noryani@cidb.gov.my

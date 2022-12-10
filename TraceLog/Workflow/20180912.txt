@@ -1,0 +1,29 @@
+[12/09/2018 17:03:11][20180912170311666][InitiateWorkflowInstance] ==> WorkflowType: MAT.App.Scorecard.Workflow.WorkflowType.ScorecardApproval, WorkflowId: 7ad24c6f-003d-41b6-9d54-f48bc5193e82
+[12/09/2018 17:03:12][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][InitiateWorkflowInstance] ==> Success
+[12/09/2018 17:03:12][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][EscalateToNextSequence] ==> START EscalateToNextSequence. Current Sequence No: -1
+[12/09/2018 17:03:12][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][EscalateToNextSequence] ==> Next Sequence No found: 1.
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][EscalateToNextSequence] ==> ManualAssignment: False.
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][PrepareNextSequenceWorkflowInstanceDetails] ==> Total Workflow Sequence Assignment: 1.
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][PrepareNextSequenceWorkflowInstanceDetails] ==> WorkflowSequenceAssignmentId ##### 1: 04503344-36f5-425f-b471-ee37596603ce User Based
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][PrepareNextSequenceWorkflowInstanceDetails] ==> No condition.
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][PrepareNextSequenceWorkflowInstanceDetails] ==> Total users found: 1
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][EscalateToNextSequence] ==> START insert WorkflowInstanceDetail. Total: 1.
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][EscalateToNextSequence] ==> END insert WorkflowInstanceDetail.
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][SendPreActionMail] ==> START SendPreActionMail
+[12/09/2018 17:03:13][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][SendPreActionMail] ==> WorkflowSequenceId: 8846088f-d126-43b6-bbdf-b3dc3e7c31ea
+[12/09/2018 17:03:14][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][SendPreActionMail] ==> Total WorkflowSequenceEmailNotification found: 1.
+[12/09/2018 17:03:14][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][SendPreActionMail] ==> WorkflowRecipientTypeName ##### 1: Approvers
+[12/09/2018 17:03:14][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][SendPreActionMail] ==> Total Users found: 1
+[12/09/2018 17:03:14][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][SendPreActionMail] ==> END SendPreActionMail
+[12/09/2018 17:03:14][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][TryCompleteWorkflowInstance] ==> START TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[12/09/2018 17:03:14][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][AutoBypass] ==> START AutoBypass
+[12/09/2018 17:03:14][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][AutoBypass] ==> Total WorkflowSequenceAssignment: 1
+[12/09/2018 17:03:15][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][AutoBypass] ==> WorkflowSequenceAssignmentId ##### 1: 04503344-36f5-425f-b471-ee37596603ce, MinApprovalRequired: 1
+[12/09/2018 17:03:15][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][AutoBypass] ==> Total Count: 1
+[12/09/2018 17:03:15][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][AutoBypass] ==> Total Approved: 0
+[12/09/2018 17:03:15][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][AutoBypass] ==> Total Pending: 1
+[12/09/2018 17:03:15][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][AutoBypass] ==> Total to bypass: 0
+[12/09/2018 17:03:15][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][AutoBypass] ==> END AutoBypass
+[12/09/2018 17:03:15][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][TryCompleteWorkflowInstance] ==> END TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[12/09/2018 17:03:15][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][EscalateToNextSequence] ==> END EscalateToNextSequence
+[12/09/2018 17:03:16][20180912170311666][50b02ce9-8943-4714-ad64-211be9e9f2b6][SendEmail] ==> Success. Email: admin@admin.com

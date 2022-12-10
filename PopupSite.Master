@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PopupSite.master.cs" Inherits="MAT.WebApp.App.PopupSite" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- begin::Head -->
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: System.Configuration.ConfigurationManager.AppSettings["MAT:ApplicationNameMinimize"] %></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--begin::Base Styles -->
+    <webopt:BundleReference runat="server" Path="~/styleBundle" />
+    <!--end::Base Styles -->
+    <%--<link rel="shortcut icon" href="assets/mat/media/img/logo/favicon.ico" />--%>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<!-- end::Head -->
+<!-- begin::Body -->
+<body class="m-page--fluid m-footer--push m-aside--offcanvas-default m-brand--minimize">
+
+    <!-- begin:: Page -->
+    <div class="m-grid m-grid--hor m-grid--root m-page">
+
+        <!-- begin::Body -->
+        <div class="m-grid__item m-grid__item--fluid  m-grid m-grid--ver-desktop m-grid--desktop 	m-body m-page__container">
+            <div class="m-grid__item m-grid__item--fluid m-wrapper">
+                <!-- BEGIN: Subheader -->
+
+                <form id="form1" runat="server" class="m-form m-form--fit m-form--label-align-right m-form--state">
+                    <asp:ScriptManager runat="server">
+                        <Scripts>
+                            <asp:ScriptReference Name="jquery" />
+                            <asp:ScriptReference Path="~/Scorecard/Include/Function.js" />
+                            <asp:ScriptReference Path="~/Scripts/jquery.easypiechart.js" />
+                            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                            <%--Framework Scripts--%>
+                            <asp:ScriptReference Name="MsAjaxBundle" />
+
+                            <%--<asp:ScriptReference Name="bootstrap" />--%>
+                            <asp:ScriptReference Name="respond" />
+                            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                            <asp:ScriptReference Name="WebFormsBundle" />
+                            <%--<asp:ScriptReference Name="ace-extra" />--%>
+                            <asp:ScriptReference Name="mat" />
+                            <%--Site Scripts--%>
+                        </Scripts>
+                    </asp:ScriptManager>
+
+                    <div class="m-content">
+                        <!--Begin::Section-->
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!--begin::Base Scripts -->
+                    <%: Scripts.Render("~/bundles/metronic") %>
+                    <!--end::Base Scripts -->
+                </form>
+            </div>
+        </div>
+        <!-- end::Body -->
+
+    </div>
+    <!-- end:: Page -->
+    <!-- begin::Scroll Top -->
+    <div class="m-scroll-top m-scroll-top--skin-top" data-toggle="m-scroll-top" data-scroll-offset="500" data-scroll-speed="300">
+        <i class="la la-arrow-up"></i>
+    </div>
+    <!-- end::Scroll Top -->
+    <!-- begin::Quick Nav -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderScript" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

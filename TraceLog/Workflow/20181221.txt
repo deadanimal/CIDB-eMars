@@ -1,0 +1,145 @@
+[21/12/2018 15:58:43][20181221155843062][InitiateWorkflowInstance] ==> WorkflowType: MAT.App.Scorecard.Workflow.WorkflowType.KpiProgressApproval, WorkflowId: 3e8399ef-11bd-4120-9ed0-90382953aa29
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][InitiateWorkflowInstance] ==> Success
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][EscalateToNextSequence] ==> START EscalateToNextSequence. Current Sequence No: -1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][EscalateToNextSequence] ==> Next Sequence No found: 1.
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][EscalateToNextSequence] ==> ManualAssignment: False.
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][PrepareNextSequenceWorkflowInstanceDetails] ==> Total Workflow Sequence Assignment: 1.
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][PrepareNextSequenceWorkflowInstanceDetails] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900 KPI Owner
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][PrepareNextSequenceWorkflowInstanceDetails] ==> No condition.
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][PrepareNextSequenceWorkflowInstanceDetails] ==> Total users found: 1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][EscalateToNextSequence] ==> START insert WorkflowInstanceDetail. Total: 1.
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][EscalateToNextSequence] ==> END insert WorkflowInstanceDetail.
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][SendPreActionMail] ==> START SendPreActionMail
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][SendPreActionMail] ==> WorkflowSequenceId: 09367d25-7f1b-4caf-8df4-80f95676e655
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][SendPreActionMail] ==> Total WorkflowSequenceEmailNotification found: 1.
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][SendPreActionMail] ==> WorkflowRecipientTypeName ##### 1: Approvers
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][SendPreActionMail] ==> Total Users found: 1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][SendPreActionMail] ==> END SendPreActionMail
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][TryCompleteWorkflowInstance] ==> START TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][AutoBypass] ==> START AutoBypass
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][AutoBypass] ==> Total WorkflowSequenceAssignment: 1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][AutoBypass] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900, MinApprovalRequired: 1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][AutoBypass] ==> Total Count: 1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][AutoBypass] ==> Total Approved: 0
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][AutoBypass] ==> Total Pending: 1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][AutoBypass] ==> Total to bypass: 0
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][AutoBypass] ==> END AutoBypass
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][TryCompleteWorkflowInstance] ==> END TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 15:58:43][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][EscalateToNextSequence] ==> END EscalateToNextSequence
+[21/12/2018 16:00:23][20181221155843062][45d6e531-80ca-45cb-b12e-acc988b2309a][SendEmail] ==> Success. Email: ramu@cidb.gov.my
+[21/12/2018 16:13:48][20181221161348341][InitiateWorkflowInstance] ==> WorkflowType: MAT.App.Scorecard.Workflow.WorkflowType.KpiProgressApproval, WorkflowId: 3e8399ef-11bd-4120-9ed0-90382953aa29
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][InitiateWorkflowInstance] ==> Success
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][EscalateToNextSequence] ==> START EscalateToNextSequence. Current Sequence No: -1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][EscalateToNextSequence] ==> Next Sequence No found: 1.
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][EscalateToNextSequence] ==> ManualAssignment: False.
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][PrepareNextSequenceWorkflowInstanceDetails] ==> Total Workflow Sequence Assignment: 1.
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][PrepareNextSequenceWorkflowInstanceDetails] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900 KPI Owner
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][PrepareNextSequenceWorkflowInstanceDetails] ==> No condition.
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][PrepareNextSequenceWorkflowInstanceDetails] ==> Total users found: 1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][EscalateToNextSequence] ==> START insert WorkflowInstanceDetail. Total: 1.
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][EscalateToNextSequence] ==> END insert WorkflowInstanceDetail.
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][SendPreActionMail] ==> START SendPreActionMail
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][SendPreActionMail] ==> WorkflowSequenceId: 09367d25-7f1b-4caf-8df4-80f95676e655
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][SendPreActionMail] ==> Total WorkflowSequenceEmailNotification found: 1.
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][SendPreActionMail] ==> WorkflowRecipientTypeName ##### 1: Approvers
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][SendPreActionMail] ==> Total Users found: 1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][SendPreActionMail] ==> END SendPreActionMail
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][TryCompleteWorkflowInstance] ==> START TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][AutoBypass] ==> START AutoBypass
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][AutoBypass] ==> Total WorkflowSequenceAssignment: 1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][AutoBypass] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900, MinApprovalRequired: 1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][AutoBypass] ==> Total Count: 1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][AutoBypass] ==> Total Approved: 0
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][AutoBypass] ==> Total Pending: 1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][AutoBypass] ==> Total to bypass: 0
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][AutoBypass] ==> END AutoBypass
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][TryCompleteWorkflowInstance] ==> END TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 16:13:48][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][EscalateToNextSequence] ==> END EscalateToNextSequence
+[21/12/2018 16:15:28][20181221161348341][e8531b85-d3d2-4b71-97c6-fb23c4a7a000][SendEmail] ==> Success. Email: ramu@cidb.gov.my
+[21/12/2018 16:40:37][20181221164037190][InitiateWorkflowInstance] ==> WorkflowType: MAT.App.Scorecard.Workflow.WorkflowType.KpiProgressApproval, WorkflowId: 3e8399ef-11bd-4120-9ed0-90382953aa29
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][InitiateWorkflowInstance] ==> Success
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][EscalateToNextSequence] ==> START EscalateToNextSequence. Current Sequence No: -1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][EscalateToNextSequence] ==> Next Sequence No found: 1.
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][EscalateToNextSequence] ==> ManualAssignment: False.
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][PrepareNextSequenceWorkflowInstanceDetails] ==> Total Workflow Sequence Assignment: 1.
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][PrepareNextSequenceWorkflowInstanceDetails] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900 KPI Owner
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][PrepareNextSequenceWorkflowInstanceDetails] ==> No condition.
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][PrepareNextSequenceWorkflowInstanceDetails] ==> Total users found: 1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][EscalateToNextSequence] ==> START insert WorkflowInstanceDetail. Total: 1.
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][EscalateToNextSequence] ==> END insert WorkflowInstanceDetail.
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][SendPreActionMail] ==> START SendPreActionMail
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][SendPreActionMail] ==> WorkflowSequenceId: 09367d25-7f1b-4caf-8df4-80f95676e655
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][SendPreActionMail] ==> Total WorkflowSequenceEmailNotification found: 1.
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][SendPreActionMail] ==> WorkflowRecipientTypeName ##### 1: Approvers
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][SendPreActionMail] ==> Total Users found: 1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][SendPreActionMail] ==> END SendPreActionMail
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][TryCompleteWorkflowInstance] ==> START TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][AutoBypass] ==> START AutoBypass
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][AutoBypass] ==> Total WorkflowSequenceAssignment: 1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][AutoBypass] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900, MinApprovalRequired: 1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][AutoBypass] ==> Total Count: 1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][AutoBypass] ==> Total Approved: 0
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][AutoBypass] ==> Total Pending: 1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][AutoBypass] ==> Total to bypass: 0
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][AutoBypass] ==> END AutoBypass
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][TryCompleteWorkflowInstance] ==> END TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 16:40:37][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][EscalateToNextSequence] ==> END EscalateToNextSequence
+[21/12/2018 16:42:17][20181221164037190][5d573d1f-9b4b-4b3c-ac5e-fa16fd8fe6bc][SendEmail] ==> Success. Email: ramu@cidb.gov.my
+[21/12/2018 16:56:45][20181221165645730][InitiateWorkflowInstance] ==> WorkflowType: MAT.App.Scorecard.Workflow.WorkflowType.KpiProgressApproval, WorkflowId: 3e8399ef-11bd-4120-9ed0-90382953aa29
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][InitiateWorkflowInstance] ==> Success
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][EscalateToNextSequence] ==> START EscalateToNextSequence. Current Sequence No: -1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][EscalateToNextSequence] ==> Next Sequence No found: 1.
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][EscalateToNextSequence] ==> ManualAssignment: False.
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][PrepareNextSequenceWorkflowInstanceDetails] ==> Total Workflow Sequence Assignment: 1.
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][PrepareNextSequenceWorkflowInstanceDetails] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900 KPI Owner
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][PrepareNextSequenceWorkflowInstanceDetails] ==> No condition.
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][PrepareNextSequenceWorkflowInstanceDetails] ==> Total users found: 1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][EscalateToNextSequence] ==> START insert WorkflowInstanceDetail. Total: 1.
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][EscalateToNextSequence] ==> END insert WorkflowInstanceDetail.
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][SendPreActionMail] ==> START SendPreActionMail
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][SendPreActionMail] ==> WorkflowSequenceId: 09367d25-7f1b-4caf-8df4-80f95676e655
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][SendPreActionMail] ==> Total WorkflowSequenceEmailNotification found: 1.
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][SendPreActionMail] ==> WorkflowRecipientTypeName ##### 1: Approvers
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][SendPreActionMail] ==> Total Users found: 1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][SendPreActionMail] ==> END SendPreActionMail
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][TryCompleteWorkflowInstance] ==> START TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][AutoBypass] ==> START AutoBypass
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][AutoBypass] ==> Total WorkflowSequenceAssignment: 1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][AutoBypass] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900, MinApprovalRequired: 1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][AutoBypass] ==> Total Count: 1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][AutoBypass] ==> Total Approved: 0
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][AutoBypass] ==> Total Pending: 1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][AutoBypass] ==> Total to bypass: 0
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][AutoBypass] ==> END AutoBypass
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][TryCompleteWorkflowInstance] ==> END TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 16:56:45][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][EscalateToNextSequence] ==> END EscalateToNextSequence
+[21/12/2018 16:58:25][20181221165645730][002e26bd-81fd-4cc5-a339-af3a714c8e43][SendEmail] ==> Success. Email: ramu@cidb.gov.my
+[21/12/2018 17:26:23][20181221172623961][InitiateWorkflowInstance] ==> WorkflowType: MAT.App.Scorecard.Workflow.WorkflowType.KpiProgressApproval, WorkflowId: 3e8399ef-11bd-4120-9ed0-90382953aa29
+[21/12/2018 17:26:23][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][InitiateWorkflowInstance] ==> Success
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][EscalateToNextSequence] ==> START EscalateToNextSequence. Current Sequence No: -1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][EscalateToNextSequence] ==> Next Sequence No found: 1.
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][EscalateToNextSequence] ==> ManualAssignment: False.
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][PrepareNextSequenceWorkflowInstanceDetails] ==> Total Workflow Sequence Assignment: 1.
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][PrepareNextSequenceWorkflowInstanceDetails] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900 KPI Owner
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][PrepareNextSequenceWorkflowInstanceDetails] ==> No condition.
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][PrepareNextSequenceWorkflowInstanceDetails] ==> Total users found: 1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][EscalateToNextSequence] ==> START insert WorkflowInstanceDetail. Total: 1.
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][EscalateToNextSequence] ==> END insert WorkflowInstanceDetail.
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][SendPreActionMail] ==> START SendPreActionMail
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][SendPreActionMail] ==> WorkflowSequenceId: 09367d25-7f1b-4caf-8df4-80f95676e655
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][SendPreActionMail] ==> Total WorkflowSequenceEmailNotification found: 1.
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][SendPreActionMail] ==> WorkflowRecipientTypeName ##### 1: Approvers
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][SendPreActionMail] ==> Total Users found: 1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][SendPreActionMail] ==> END SendPreActionMail
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][TryCompleteWorkflowInstance] ==> START TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][AutoBypass] ==> START AutoBypass
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][AutoBypass] ==> Total WorkflowSequenceAssignment: 1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][AutoBypass] ==> WorkflowSequenceAssignmentId ##### 1: 43a85e90-e8fe-473c-b1d7-454aef218900, MinApprovalRequired: 1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][AutoBypass] ==> Total Count: 1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][AutoBypass] ==> Total Approved: 0
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][AutoBypass] ==> Total Pending: 1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][AutoBypass] ==> Total to bypass: 0
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][AutoBypass] ==> END AutoBypass
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][TryCompleteWorkflowInstance] ==> END TryCompleteWorkflowInstance. WorkflowInstanceStatus: InProgress, SequenceNo: 1
+[21/12/2018 17:26:24][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][EscalateToNextSequence] ==> END EscalateToNextSequence
+[21/12/2018 17:28:04][20181221172623961][47f7de72-4a24-4086-8636-5838cfb8c7fe][SendEmail] ==> Success. Email: ridzuan@cidb.gov.my
